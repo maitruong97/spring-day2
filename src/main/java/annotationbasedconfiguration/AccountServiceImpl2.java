@@ -1,7 +1,15 @@
-package org.example.pojobeans;
+package annotationbasedconfiguration;
 
-public class AccountServiceImpl  implements AccountService{
-    private  AccountRepository accountRepository;
+import org.example.pojobeans.Account;
+import org.example.pojobeans.AccountRepository;
+import org.example.pojobeans.AccountService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service("accountService")
+public class AccountServiceImpl2 implements AccountService {
+  @Autowired
+    private AccountRepository accountRepository;
 
     public void setAccountRepository(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;

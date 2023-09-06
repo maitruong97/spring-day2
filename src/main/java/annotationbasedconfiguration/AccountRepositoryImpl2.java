@@ -1,11 +1,17 @@
-package org.example.pojobeans;
+package annotationbasedconfiguration;
+
+import org.example.pojobeans.Account;
+import org.example.pojobeans.AccountRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
-
-public class AccountRepositoryImpl implements AccountRepository{
-    private Map<Long,Account> accountMap = new HashMap<>();
+@Repository
+public class AccountRepositoryImpl2 implements AccountRepository {
+    private Map<Long, Account> accountMap;
+    public void initDate()
     {
+        accountMap = new HashMap<>();
         Account account1 = new Account();
         account1.setId(1L);
         account1.setOwnerName("maitruong");
