@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="account1" class="org.example.pojobeans.Account" scope="singleton">
+        <property name="id" value="1"/>
+        <property name="ownerName" value="truong"/>
+        <property name="balance" value="100"/>
+    </bean>
+
+    <bean id="account2" class="org.example.pojobeans.Account" scope="prototype">
+        <property name="id" value="2"/>
+        <property name="ownerName" value="nhi"/>
+        <property name="balance" value="200"/>
+    </bean>
+</beans>

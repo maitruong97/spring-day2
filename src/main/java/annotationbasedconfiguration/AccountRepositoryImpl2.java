@@ -2,6 +2,7 @@ package annotationbasedconfiguration;
 
 import org.example.pojobeans.Account;
 import org.example.pojobeans.AccountRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
@@ -9,6 +10,7 @@ import java.util.Map;
 @Repository
 public class AccountRepositoryImpl2 implements AccountRepository {
     private Map<Long, Account> accountMap;
+    @Autowired
     public void initDate()
     {
         accountMap = new HashMap<>();

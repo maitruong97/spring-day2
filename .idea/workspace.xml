@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="">
+    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="update spring-day2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainTestConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeanLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeanLifeCycleAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/MainTestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/beanscope/MainBeanScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceConstructorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceSetterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanlifecycleconfiguration/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanscopeconfiguration/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/constructorinjectionconfiguration/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/setterinjectionconfiguration/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepositoryImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepositoryImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotationbasedconfiguration/AccountRepositoryImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepositoryImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/annotationbasedconfiguration/AccountServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountServiceImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javabasedconfiguration/BeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javabasedconfiguration/BeanConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pojobeans/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlbasedconfiguration/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlbasedconfiguration/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="spring-beans.schema" />
         <option value="Class" />
-        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -55,66 +57,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "spring.configuration.checksum": "1513dd45ae096a35e8d1cf0aa158d08f"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1513dd45ae096a35e8d1cf0aa158d08f&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="annotationbasedconfiguration" />
       <recent name="org.example.javabasedconfiguration" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dependencyinjection" />
       <recent name="annotationbasedconfiguration" />
       <recent name="org.example.annotationbasedconfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.62">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="spring-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main1" />
-      <module name="spring-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainTestAnnotation">
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main3" />
       <module name="spring-day2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBeanScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanscope.MainBeanScope" />
+      <module name="spring-day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanscope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanlifecycle.MainTestAnnotation" />
+      <module name="spring-day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanlifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTestConstructor" />
+      <module name="spring-day2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="beanlifecycle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beanlifecycle.Main" />
+      <module name="spring-day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beanlifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,16 +225,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.MainTestAnnotation" />
+      <item itemvalue="Application.MainBeanScope" />
+      <item itemvalue="Application.beanlifecycle.Main" />
+      <item itemvalue="Application.MainTestConstructor" />
       <item itemvalue="Application.Main3" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.62" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTestAnnotation" />
+        <item itemvalue="Application.beanlifecycle.Main" />
+        <item itemvalue="Application.MainBeanScope" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainTestConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +254,20 @@
       <workItem from="1693651477315" duration="6068000" />
       <workItem from="1693827360927" duration="594000" />
       <workItem from="1693922043316" duration="578000" />
+      <workItem from="1693965032253" duration="792000" />
+      <workItem from="1693977045319" duration="180000" />
+      <workItem from="1693998152929" duration="5179000" />
+      <workItem from="1694004128257" duration="4138000" />
+      <workItem from="1694014854137" duration="462000" />
     </task>
+    <task id="LOCAL-00001" summary="update spring-day2">
+      <created>1693965225321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693965225322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,5 +283,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update spring-day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spring-day2" />
   </component>
 </project>
