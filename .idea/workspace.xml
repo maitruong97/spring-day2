@@ -4,24 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="update spring-day2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainTestConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeanLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/BeanLifeCycleAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanlifecycle/MainTestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/beanscope/MainBeanScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceConstructorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dependencyinjection/AccountServiceSetterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanlifecycleconfiguration/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanscopeconfiguration/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/constructorinjectionconfiguration/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/setterinjectionconfiguration/beans.xml" afterDir="false" />
+    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="update spring-day2 (autowired,beanscope,beanlifecycle)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/JPAConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/AccountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BookDetailsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainTestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainTestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BookEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepositoryImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotationbasedconfiguration/AccountRepositoryImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/annotationbasedconfiguration/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maitr/IdeaProjects/demo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,6 +74,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;1513dd45ae096a35e8d1cf0aa158d08f&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -85,26 +92,13 @@
       <recent name="org.example.annotationbasedconfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTestAnnotation">
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main3" />
+  <component name="RunManager" selected="Application.MainTestEntity">
+    <configuration name="MainBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.MainBook" />
       <module name="spring-day2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainBeanScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beanscope.MainBeanScope" />
-      <module name="spring-day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beanscope.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,9 +119,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTestConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTestConstructor" />
+    <configuration name="MainTestEntity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.MainTestEntity" />
       <module name="spring-day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.MainTestTransaction" />
+      <module name="spring-day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,20 +238,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MainBook" />
+      <item itemvalue="Application.MainTestEntity" />
+      <item itemvalue="Application.MainTestTransaction" />
       <item itemvalue="Application.MainTestAnnotation" />
-      <item itemvalue="Application.MainBeanScope" />
       <item itemvalue="Application.beanlifecycle.Main" />
-      <item itemvalue="Application.MainTestConstructor" />
-      <item itemvalue="Application.Main3" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.62" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTestAnnotation" />
+        <item itemvalue="Application.MainTestEntity" />
+        <item itemvalue="Application.MainTestTransaction" />
+        <item itemvalue="Application.MainBook" />
         <item itemvalue="Application.beanlifecycle.Main" />
-        <item itemvalue="Application.MainBeanScope" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.MainTestConstructor" />
+        <item itemvalue="Application.MainTestAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +271,34 @@
       <workItem from="1693977045319" duration="180000" />
       <workItem from="1693998152929" duration="5179000" />
       <workItem from="1694004128257" duration="4138000" />
-      <workItem from="1694014854137" duration="462000" />
+      <workItem from="1694014854137" duration="1236000" />
+      <workItem from="1694093365882" duration="969000" />
+      <workItem from="1694095106921" duration="84000" />
+      <workItem from="1694095279784" duration="299000" />
+      <workItem from="1694095600096" duration="1577000" />
+      <workItem from="1694170749100" duration="1723000" />
+      <workItem from="1694430618555" duration="14000" />
+      <workItem from="1694430677183" duration="32000" />
+      <workItem from="1694430725811" duration="16000" />
+      <workItem from="1694430749906" duration="45000" />
+      <workItem from="1694431845778" duration="166000" />
+      <workItem from="1694432024380" duration="69000" />
+      <workItem from="1694432123812" duration="20000" />
+      <workItem from="1694432173880" duration="38000" />
+      <workItem from="1694432226438" duration="30000" />
+      <workItem from="1694432265059" duration="24000" />
+      <workItem from="1694432327876" duration="28000" />
+      <workItem from="1694432365802" duration="30000" />
+      <workItem from="1694432421884" duration="58000" />
+      <workItem from="1694432511601" duration="82000" />
+      <workItem from="1694432602724" duration="14000" />
+      <workItem from="1694432631417" duration="39000" />
+      <workItem from="1694432683830" duration="10000" />
+      <workItem from="1694432703311" duration="19000" />
+      <workItem from="1694432741086" duration="44000" />
+      <workItem from="1694432825807" duration="23000" />
+      <workItem from="1694432858492" duration="38000" />
+      <workItem from="1694432916869" duration="7511000" />
     </task>
     <task id="LOCAL-00001" summary="update spring-day2">
       <created>1693965225321</created>
@@ -267,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693965225322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update spring-day2 (autowired,beanscope,beanlifecycle)">
+      <created>1694015501441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694015501441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +333,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update spring-day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spring-day2" />
+    <MESSAGE value="update spring-day2 (autowired,beanscope,beanlifecycle)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spring-day2 (autowired,beanscope,beanlifecycle)" />
   </component>
 </project>
