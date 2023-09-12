@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="update spring-day2 (autowired,beanscope,beanlifecycle)">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/JPAConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/AccountEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BookDetailsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BookEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainTestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainTestTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BookEntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    <list default="true" id="492f6f92-e12a-426e-af4b-2468b0171562" name="Changes" comment="update spring-day2 (relationship into entity (1-1),(1-n),(n-n))">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/MainBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/BookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +77,7 @@
       <recent name="org.example.annotationbasedconfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTestEntity">
+  <component name="RunManager" selected="Application.MainBook">
     <configuration name="MainBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.MainBook" />
       <module name="spring-day2" />
@@ -247,9 +232,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainBook" />
         <item itemvalue="Application.MainTestEntity" />
         <item itemvalue="Application.MainTestTransaction" />
-        <item itemvalue="Application.MainBook" />
         <item itemvalue="Application.beanlifecycle.Main" />
         <item itemvalue="Application.MainTestAnnotation" />
       </list>
@@ -298,7 +283,8 @@
       <workItem from="1694432741086" duration="44000" />
       <workItem from="1694432825807" duration="23000" />
       <workItem from="1694432858492" duration="38000" />
-      <workItem from="1694432916869" duration="7511000" />
+      <workItem from="1694432916869" duration="7787000" />
+      <workItem from="1694526775721" duration="1287000" />
     </task>
     <task id="LOCAL-00001" summary="update spring-day2">
       <created>1693965225321</created>
@@ -314,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694015501441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update spring-day2 (relationship into entity (1-1),(1-n),(n-n))">
+      <created>1694440620052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694440620052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +327,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update spring-day2" />
     <MESSAGE value="update spring-day2 (autowired,beanscope,beanlifecycle)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spring-day2 (autowired,beanscope,beanlifecycle)" />
+    <MESSAGE value="update spring-day2 (relationship into entity (1-1),(1-n),(n-n))" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spring-day2 (relationship into entity (1-1),(1-n),(n-n))" />
   </component>
 </project>

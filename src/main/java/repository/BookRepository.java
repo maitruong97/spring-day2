@@ -31,8 +31,11 @@ public interface BookRepository extends CrudRepository<Book, Integer> {
 
 
     @Modifying
-    @Query(value = "update SpringJPA book set book.price = ?", nativeQuery = true)
+    @Query("update Book b set b.price = ?1")
     List<Book> updateALlPrice(double price);
+
+    List<Book> deleteByNameAndAuthor(String name, String author);
+
 
 
 

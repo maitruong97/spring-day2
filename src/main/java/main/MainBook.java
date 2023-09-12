@@ -63,16 +63,6 @@ public class MainBook {
         System.out.println(book.toString());
 
     }
-    private static void updateBookPrice() {
-
-        Iterable<Book> book = bookRepository.findAll();
-        System.out.println("Book date before updating");
-        System.out.println(book.toString());
-
-
-    }
-
-
 
     // delete book
     private static void deleteBook(){
@@ -88,6 +78,24 @@ public class MainBook {
         bookRepository.deleteAll();
 
     }
+    public static void updatePrice(){
+        List<Book> bookList = bookRepository.findByPriceGreaterThanEqual(100);
+
+        bookList.forEach((book)->{
+            book.setPrice(90);
+        });
+
+        bookRepository.saveAll(bookList);
+    }
+
+    public static void deleteByNameAndAuthor(){
+       List<Book> bookList= bookRepository.deleteByNameAndAuthor("Java","John");
+
+        if(bookList != null){
+            bookRepository.deleteAll(bookList);
+        }
+
+    }
 
     public static void main(String[] args) throws Exception {
 //        createNewBook();
@@ -101,8 +109,8 @@ public class MainBook {
 //   List<Book> bookList = bookRepository.findByPublishDateBefore(LocalDate.now());
 
 //   List<Book> bookList = bookRepository.findByPublishDateBefore(LocalDate.now());
-        List<Book> bookList = bookRepository.updateALlPrice(50);
-
+//        updatePrice();
+deleteByNameAndAuthor();
 
 //    if (bookList.size() != 0){
 //        System.out.println("Found " + bookList.size() + "book(s) of Roger");
