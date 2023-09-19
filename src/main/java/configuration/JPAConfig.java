@@ -31,6 +31,7 @@ public class JPAConfig {
         final DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/springjpa?characterEncoding=UTF-8");
+//        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/onlineorders?characterEncoding=UTF-8");
         dataSource.setUsername("root");
         dataSource.setPassword("123456");
         return dataSource;
@@ -49,7 +50,8 @@ public class JPAConfig {
 
     final Properties additionalProperties() {
         final Properties hibernateProperties = new Properties();
-        hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");//update
+      hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");//update
+//        hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "create");
         hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
         hibernateProperties.setProperty("hibernate.show_sql", "true");
         hibernateProperties.setProperty("hibernate.format_sql", "true");
@@ -58,10 +60,10 @@ public class JPAConfig {
     }
 
     @Bean
-    public PlatformTransactionManager transactionManager(final EntityManagerFactory emf) {
-        final JpaTransactionManager transactionManager = new JpaTransactionManager();
-        transactionManager.setEntityManagerFactory(emf);
-        return transactionManager;
+    public JpaTransactionManager transactionManager( EntityManagerFactory entityManagerFactory) {
+         JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
+        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
+        return jpaTransactionManager;
     }
 
     @Bean

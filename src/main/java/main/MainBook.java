@@ -110,7 +110,7 @@ public class MainBook {
 
 //   List<Book> bookList = bookRepository.findByPublishDateBefore(LocalDate.now());
 //        updatePrice();
-deleteByNameAndAuthor();
+//deleteByNameAndAuthor();
 
 //    if (bookList.size() != 0){
 //        System.out.println("Found " + bookList.size() + "book(s) of Roger");

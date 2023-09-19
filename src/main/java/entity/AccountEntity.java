@@ -12,7 +12,7 @@ public class AccountEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name="id")
     private int id;
-    @Column (name="owner_name")
+    @Column (name="owner_name", length = 255)
     private String ownerName;
 
     @Column (name="balance")

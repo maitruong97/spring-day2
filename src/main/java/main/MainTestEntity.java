@@ -20,15 +20,15 @@ public class MainTestEntity {
     static BookEntityRepository bookEntityRepository = (BookEntityRepository) context.getBean("bookEntityRepository", BookEntityRepository.class);
     static CategoryRepository categoryRepository = (CategoryRepository) context.getBean("categoryRepository", CategoryRepository.class);
 
-    public static void main(String[] args) {
-//        createNewBookEntryWithNewCategory();
-//        createNewBookEntry();
-//        findAllUsingQuery();
-//        findByAuthor("nguyen thi yen nhi");
-//        findBookNameStartWithUsingQuery("PyThon");
-//          findBookPriceGreaterThanUsingQuery(100);
-        findByNameContaining("Py");
-    }
+//    public static void main(String[] args) {
+////        createNewBookEntryWithNewCategory();
+////        createNewBookEntry();
+////        findAllUsingQuery();
+////        findByAuthor("nguyen thi yen nhi");
+////        findBookNameStartWithUsingQuery("PyThon");
+////          findBookPriceGreaterThanUsingQuery(100);
+//        findByNameContaining("Py");
+//    }
 
 
     public static void findByAuthor(String author) {
